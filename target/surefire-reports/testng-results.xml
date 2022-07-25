@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[test demo1]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26" started-at="2022-07-23T06:54:00Z" finished-at="2022-07-23T06:54:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26" started-at="2022-07-23T06:54:00Z" finished-at="2022-07-23T06:54:00Z">
+      <class name="com.testingjava.DemoTest2">
+        <test-method status="PASS" signature="createDemo1()[pri:0, instance:com.testingjava.DemoTest2@1677d1]" name="createDemo1" duration-ms="10" started-at="2022-07-23T12:24:00Z" finished-at="2022-07-23T12:24:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test demo1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDemo1 -->
+        <test-method status="PASS" signature="practiceTest1()[pri:0, instance:com.testingjava.DemoTest2@1677d1]" name="practiceTest1" duration-ms="0" started-at="2022-07-23T12:24:00Z" finished-at="2022-07-23T12:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceTest1 -->
+      </class> <!-- com.testingjava.DemoTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

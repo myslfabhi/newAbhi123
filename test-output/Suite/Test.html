@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 23 11:38:44 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (51 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testingjava.DemoTest.createDemo1Test()'><b>createDemo1Test</b><br>Test class: com.testingjava.DemoTest<br/>
+<a href="#Output-1585239756" onClick='toggleBox("Output-1585239756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1585239756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1585239756">
+Test Demo1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testingjava.DemoTest@53ce1329</td></tr>
+<tr>
+<td title='com.testingjava.DemoTest1.createDemo5()'><b>createDemo5</b><br>Test class: com.testingjava.DemoTest1<br/>
+<a href="#Output-2032169857" onClick='toggleBox("Output-2032169857", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2032169857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2032169857">
+Test Demo5<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testingjava.DemoTest1@54a7079e</td></tr>
+<tr>
+<td title='com.testingjava.DemoTest.createDemo3Test()'><b>createDemo3Test</b><br>Test class: com.testingjava.DemoTest<br/>
+<a href="#Output-821576394" onClick='toggleBox("Output-821576394", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-821576394" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-821576394">
+Test Demo3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testingjava.DemoTest@53ce1329</td></tr>
+<tr>
+<td title='com.testingjava.DemoTest1.createDemo6()'><b>createDemo6</b><br>Test class: com.testingjava.DemoTest1<br/>
+<a href="#Output-76659128" onClick='toggleBox("Output-76659128", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-76659128" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-76659128">
+Test Demo6<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testingjava.DemoTest1@54a7079e</td></tr>
+<tr>
+<td title='com.testingjava.DemoTest.createDemo4Test()'><b>createDemo4Test</b><br>Test class: com.testingjava.DemoTest<br/>
+<a href="#Output-1774720883" onClick='toggleBox("Output-1774720883", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1774720883" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1774720883">
+Test Demo4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testingjava.DemoTest@53ce1329</td></tr>
+<tr>
+<td title='com.testingjava.DemoTest2.createDemo1()'><b>createDemo1</b><br>Test class: com.testingjava.DemoTest2<br/>
+<a href="#Output-11249189" onClick='toggleBox("Output-11249189", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11249189" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11249189">
+test demo1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testingjava.DemoTest2@4b8ee4de</td></tr>
+<tr>
+<td title='com.testingjava.DemoTest.createDemo2Test()'><b>createDemo2Test</b><br>Test class: com.testingjava.DemoTest<br/>
+<a href="#Output-231202600" onClick='toggleBox("Output-231202600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-231202600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-231202600">
+Test Demo2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testingjava.DemoTest@53ce1329</td></tr>
+<tr>
+<td title='com.testingjava.DemoTest1.createDemo7()'><b>createDemo7</b><br>Test class: com.testingjava.DemoTest1<br/>
+<a href="#Output-441001942" onClick='toggleBox("Output-441001942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-441001942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-441001942">
+Test Demo7<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testingjava.DemoTest1@54a7079e</td></tr>
+<tr>
+<td title='com.testingjava.DemoTest2.practiceTest1()'><b>practiceTest1</b><br>Test class: com.testingjava.DemoTest2</td>
+<td></td>
+<td>0</td>
+<td>com.testingjava.DemoTest2@4b8ee4de</td></tr>
+</table><p>
+</body>
+</html>

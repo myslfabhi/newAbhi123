@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Demo1]]>
+    </line>
+    <line>
+      <![CDATA[Test Demo2]]>
+    </line>
+    <line>
+      <![CDATA[Test Demo3]]>
+    </line>
+    <line>
+      <![CDATA[Test Demo4]]>
+    </line>
+    <line>
+      <![CDATA[Test Demo5]]>
+    </line>
+    <line>
+      <![CDATA[Test Demo6]]>
+    </line>
+    <line>
+      <![CDATA[Test Demo7]]>
+    </line>
+    <line>
+      <![CDATA[test demo1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-23T11:38:44 IST" name="Suite" finished-at="2022-07-23T11:38:44 IST" duration-ms="51">
+    <groups>
+    </groups>
+    <test started-at="2022-07-23T11:38:44 IST" name="Test" finished-at="2022-07-23T11:38:44 IST" duration-ms="51">
+      <class name="com.testingjava.DemoTest1">
+        <test-method signature="createDemo5()[pri:0, instance:com.testingjava.DemoTest1@54a7079e]" started-at="2022-07-23T11:38:44 IST" name="createDemo5" finished-at="2022-07-23T11:38:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Demo5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDemo5 -->
+        <test-method signature="createDemo6()[pri:0, instance:com.testingjava.DemoTest1@54a7079e]" started-at="2022-07-23T11:38:44 IST" name="createDemo6" finished-at="2022-07-23T11:38:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Demo6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDemo6 -->
+        <test-method signature="createDemo7()[pri:0, instance:com.testingjava.DemoTest1@54a7079e]" started-at="2022-07-23T11:38:44 IST" name="createDemo7" finished-at="2022-07-23T11:38:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Demo7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDemo7 -->
+      </class> <!-- com.testingjava.DemoTest1 -->
+      <class name="com.testingjava.DemoTest">
+        <test-method signature="createDemo1Test()[pri:0, instance:com.testingjava.DemoTest@53ce1329]" started-at="2022-07-23T11:38:44 IST" name="createDemo1Test" finished-at="2022-07-23T11:38:44 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Demo1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDemo1Test -->
+        <test-method signature="createDemo2Test()[pri:0, instance:com.testingjava.DemoTest@53ce1329]" started-at="2022-07-23T11:38:44 IST" name="createDemo2Test" finished-at="2022-07-23T11:38:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Demo2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDemo2Test -->
+        <test-method signature="createDemo3Test()[pri:0, instance:com.testingjava.DemoTest@53ce1329]" started-at="2022-07-23T11:38:44 IST" name="createDemo3Test" finished-at="2022-07-23T11:38:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Demo3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDemo3Test -->
+        <test-method signature="createDemo4Test()[pri:0, instance:com.testingjava.DemoTest@53ce1329]" started-at="2022-07-23T11:38:44 IST" name="createDemo4Test" finished-at="2022-07-23T11:38:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Demo4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDemo4Test -->
+      </class> <!-- com.testingjava.DemoTest -->
+      <class name="com.testingjava.DemoTest2">
+        <test-method signature="createDemo1()[pri:0, instance:com.testingjava.DemoTest2@4b8ee4de]" started-at="2022-07-23T11:38:44 IST" name="createDemo1" finished-at="2022-07-23T11:38:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test demo1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createDemo1 -->
+        <test-method signature="practiceTest1()[pri:0, instance:com.testingjava.DemoTest2@4b8ee4de]" started-at="2022-07-23T11:38:44 IST" name="practiceTest1" finished-at="2022-07-23T11:38:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceTest1 -->
+      </class> <!-- com.testingjava.DemoTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
